@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: vipinde/galactic-airlines-backend:k1
+          image: adityabhutada08/galactic-airlines-backend:latest
           ports:
             - containerPort: 5000
           env:
